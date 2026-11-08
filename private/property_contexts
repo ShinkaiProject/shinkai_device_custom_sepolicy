@@ -13,3 +13,6 @@ persist.sys.pif.                       u:object_r:pif_prop:s0
 
 # PairIP license block
 persist.sys.pairip.activity.block      u:object_r:system_prop:s0 exact bool
+
+# Legacy public build fingerprint queried by qtidataservices and device apps.
+ro.product.fingerprint                 u:object_r:build_prop:s0 exact string
