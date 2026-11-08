@@ -1,0 +1,3 @@
+add_service(system_server, ax_sandbox_service);
+allow system_server ax_sandbox_vault_file:dir create_dir_perms;
+allow system_server ax_sandbox_vault_file:file create_file_perms;
