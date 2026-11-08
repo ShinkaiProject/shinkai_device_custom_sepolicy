@@ -4,12 +4,3 @@ allow platform_app ax_sandbox_vault_file:file create_file_perms;
 
 # AppLock
 allow platform_app app_lock_service:service_manager find;
-
-# TrickyStore
-allow platform_app adb_data_file:dir { search getattr };
-allow platform_app trickystore_data_file:dir { create open read write add_name remove_name search getattr };
-allow platform_app trickystore_data_file:file { create open read write getattr setattr unlink };
-
-# PlayIntegrityFix
-allow platform_app pif_data_file:dir { create open read write add_name remove_name search getattr };
-allow platform_app pif_data_file:file { create open read write getattr setattr unlink };

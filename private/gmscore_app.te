@@ -1,9 +1,2 @@
-# GMS Core / DroidGuard access for Play Integrity & TrickyStore
-allow gmscore_app adb_data_file:dir { search getattr };
-allow gmscore_app trickystore_data_file:dir { open read search getattr watch };
-allow gmscore_app trickystore_data_file:file { open read getattr };
-allow gmscore_app pif_data_file:dir { open read search getattr watch };
-allow gmscore_app pif_data_file:file { open read getattr };
-
 # DroidGuard reads the staged Play Integrity props through bionic
 get_prop(gmscore_app, pif_prop)

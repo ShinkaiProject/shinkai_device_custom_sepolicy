@@ -1,8 +1,0 @@
-# TrickyStore - AndroidKeyStoreSpi runs in app context
-allow untrusted_app_all adb_data_file:dir { search getattr };
-allow untrusted_app_all trickystore_data_file:dir { open read search getattr watch };
-allow untrusted_app_all trickystore_data_file:file { open read getattr };
-
-# PlayIntegrityFix
-allow untrusted_app_all pif_data_file:dir { open read search getattr watch };
-allow untrusted_app_all pif_data_file:file { open read getattr };

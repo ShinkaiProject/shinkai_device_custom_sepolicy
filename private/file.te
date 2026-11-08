@@ -1,3 +1,1 @@
 type ax_sandbox_vault_file, file_type, data_file_type, core_data_file_type;
-type trickystore_data_file, file_type, data_file_type, core_data_file_type;
-type pif_data_file, file_type, data_file_type, core_data_file_type;
