@@ -1,5 +1,2 @@
-# Custom version
-system_internal_prop(custom_version_prop)
-
 # Play Integrity staging props, served to DroidGuard by bionic
 system_internal_prop(pif_prop)
