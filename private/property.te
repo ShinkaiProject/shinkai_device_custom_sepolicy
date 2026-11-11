@@ -1,2 +1,7 @@
-# PIHooks
-system_public_prop(pih_disable_prop)
+# Custom version
+ifdef(`_prop_defined_custom_version_prop', `', `
+system_internal_prop(custom_version_prop)
+')
+
+# Play Integrity staging props, served to DroidGuard by bionic
+system_internal_prop(pif_prop)
