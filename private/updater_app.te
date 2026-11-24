@@ -1,2 +1,5 @@
 # Allow the Updater to discover Android's system update service.
 allow updater_app system_update_service:service_manager find;
+
+# Allow the Updater to read custom ROM version properties.
+get_prop(updater_app, custom_version_prop)

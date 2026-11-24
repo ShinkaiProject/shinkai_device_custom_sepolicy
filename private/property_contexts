@@ -1,9 +1,14 @@
 # Custom version
 net.pixelos.version                    u:object_r:custom_version_prop:s0
+net.shinkai.build_type                 u:object_r:custom_version_prop:s0
+net.shinkai.version                    u:object_r:custom_version_prop:s0
 ro.custom.build.date                   u:object_r:custom_version_prop:s0
 ro.custom.device                       u:object_r:custom_version_prop:s0
 ro.custom.fingerprint                  u:object_r:custom_version_prop:s0
 ro.custom.version                      u:object_r:custom_version_prop:s0
+ro.shinkai.build.date                  u:object_r:custom_version_prop:s0
+ro.shinkai.maintainer                  u:object_r:custom_version_prop:s0
+ro.shinkai.version                     u:object_r:custom_version_prop:s0
 
 # SurfaceFlinger
 ro.surface_flinger.blur_disabled_by_default u:object_r:surfaceflinger_prop:s0 exact bool
